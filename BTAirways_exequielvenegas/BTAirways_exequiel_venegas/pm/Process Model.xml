@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="17195B0F-063B-2C6B-9967-E3BCA95423CF">
-<createdBy>exequ</createdBy>
-<createdTime>2025-08-16 02:03:41 UTC</createdTime>
-<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</ProcessModel>

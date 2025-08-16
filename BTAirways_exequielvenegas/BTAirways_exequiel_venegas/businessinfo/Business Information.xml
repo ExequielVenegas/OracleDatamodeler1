@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="B17641E0-F4D6-957D-B751-1BA044B9401D">
-<createdBy>exequ</createdBy>
-<createdTime>2025-08-16 02:03:41 UTC</createdTime>
-<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</BusinessInfoDesign>
