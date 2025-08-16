@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E076B40B-CDEB-E1EC-872E-9513078F7A7C" name="RESERVA">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:37:01 UTC</createdTime>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMERO_RESERVA" id="DAFEA46B-AD73-1DB9-DEB4-72A15E738768">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:37:38 UTC</createdTime>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_RESERVA" id="04B84C9D-0C36-88BA-E24A-2441BCB9D278">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:37:56 UTC</createdTime>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_VIAJE" id="314317AA-A8AB-3D65-EA15-97DB3C5E5FAA">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:38:18 UTC</createdTime>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="CF35C5BC-4DBF-297A-55E3-9D8A6FD669B6">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:38:45 UTC</createdTime>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASAJEROS_CEDULA_IDENTIDAD" id="94AE52D5-68C5-6DEF-D76F-A0652938F7E7">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:41:01 UTC</createdTime>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39EB2E32-041C-4422-F57A-F6EC11D08881" referredColumn="B80107C1-A6A9-5017-25FB-1C2C873362B2"/>
+</associations>
+</Column>
+<Column name="VUELO_NUMERO_VUELO" id="9F8EA089-7AF2-33CE-DD90-33D1EC1B3B1B">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:45:33 UTC</createdTime>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B20E7666-77E3-AED4-3441-773B2709568C" referredColumn="FE9ADB85-AA5E-5679-8274-517F217735E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC5E83E9-A5ED-1B74-E6A4-FDB6985D2E5B" name="RESERVA_PK">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:37:38 UTC</createdTime>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAFEA46B-AD73-1DB9-DEB4-72A15E738768"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6EA7D582-A345-036C-7384-90F3BF0956AB" name="RESERVA_PASAJEROS_FK">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:41:01 UTC</createdTime>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94AE52D5-68C5-6DEF-D76F-A0652938F7E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E6776AB-BE80-26FF-A11A-CF9E1B46C4BC" name="RESERVA_VUELO_FK">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:45:33 UTC</createdTime>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F8EA089-7AF2-33CE-DD90-33D1EC1B3B1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

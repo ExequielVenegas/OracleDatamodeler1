@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D3AB5AB1-5520-9966-1C3C-1C33F5638D79" name="RESERVA">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:52:06 UTC</createdTime>
+<generatorID>E076B40B-CDEB-E1EC-872E-9513078F7A7C</generatorID>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<engineerTo>
+<item key="70F6B931-D651-FFD0-C792-D42345C0AE2C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NUMERO RESERVA" id="229FD09D-B5B4-CD77-78F0-BB31C1D78100">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:52:06 UTC</createdTime>
+<generatorID>DAFEA46B-AD73-1DB9-DEB4-72A15E738768</generatorID>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<engineerTo>
+<item key="70F6B931-D651-FFD0-C792-D42345C0AE2C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA RESERVA" id="9BA5F184-6382-EFE9-EB49-C0BE8F94B58C">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:52:06 UTC</createdTime>
+<generatorID>04B84C9D-0C36-88BA-E24A-2441BCB9D278</generatorID>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<engineerTo>
+<item key="70F6B931-D651-FFD0-C792-D42345C0AE2C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA VIAJE" id="3386405F-97AA-E8F5-5F63-4E96588E2ED6">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:52:06 UTC</createdTime>
+<generatorID>314317AA-A8AB-3D65-EA15-97DB3C5E5FAA</generatorID>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<engineerTo>
+<item key="70F6B931-D651-FFD0-C792-D42345C0AE2C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="FE39F325-3B59-56DF-20AC-9F9050B566DC">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:52:06 UTC</createdTime>
+<generatorID>CF35C5BC-4DBF-297A-55E3-9D8A6FD669B6</generatorID>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<engineerTo>
+<item key="70F6B931-D651-FFD0-C792-D42345C0AE2C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PASAJEROS CEDULA IDENTIDAD" id="4D212842-8F24-4C57-C679-57903AEBA60D">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:52:06 UTC</createdTime>
+<generatorID>D28A72FE-3C9F-862C-9792-EC406A84AD63</generatorID>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<engineerTo>
+<item key="70F6B931-D651-FFD0-C792-D42345C0AE2C" value="true"/>
+</engineerTo>
+<referedAttribute>11D8201B-7156-7880-2747-376A8F2A3B29</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VUELO NUMERO VUELO" id="B47BED4D-63C4-3C27-FCDC-9BB9C4D657E3">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:52:06 UTC</createdTime>
+<generatorID>6C8E6F89-FD1C-F3D6-971B-BAA4074E24F5</generatorID>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<engineerTo>
+<item key="70F6B931-D651-FFD0-C792-D42345C0AE2C" value="true"/>
+</engineerTo>
+<referedAttribute>DB465D6F-2AEF-A177-C6BF-5BA25DEE848B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EE08A892-DA73-ADEF-A853-B2DF736C10AF" name="RESERVA PK">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:52:06 UTC</createdTime>
+<generatorID>EC5E83E9-A5ED-1B74-E6A4-FDB6985D2E5B</generatorID>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<engineerTo>
+<item key="70F6B931-D651-FFD0-C792-D42345C0AE2C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>229FD09D-B5B4-CD77-78F0-BB31C1D78100</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

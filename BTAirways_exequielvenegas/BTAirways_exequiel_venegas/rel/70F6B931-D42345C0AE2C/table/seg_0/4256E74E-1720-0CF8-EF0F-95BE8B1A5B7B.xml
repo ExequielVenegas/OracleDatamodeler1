@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4256E74E-1720-0CF8-EF0F-95BE8B1A5B7B" name="EMPLEADO">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:28:41 UTC</createdTime>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CEDULADA_IDENTIDAD" id="02A7ABDD-3E86-1B53-794C-98A50531A666">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:29:52 UTC</createdTime>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_COMPLETO" id="7283A203-9697-E00F-FD56-DA6C865CDCA0">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:30:13 UTC</createdTime>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="D3723416-7E43-C2AE-7B77-A64FA410F1F2">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:30:13 UTC</createdTime>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUELDO_BASE" id="772E28F5-52AC-B3C4-DF40-9C63590DF993">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:30:13 UTC</createdTime>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INGRESO" id="D132847A-1134-0680-2F10-F6315FCA0663">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:30:13 UTC</createdTime>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENERO" id="B4742123-8326-FF2C-198F-342DFFEFEBDC">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:30:13 UTC</createdTime>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="92C1033B-0BC1-864C-1DF1-20203ED2C79A">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:31:59 UTC</createdTime>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="BA10FAF2-CA8D-15E7-0EB4-D0400748A8E5">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:31:59 UTC</createdTime>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VUELO_NUMERO_VUELO" id="2EA7BC2A-8A40-48C8-69DC-6B996BB11F08">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:46:29 UTC</createdTime>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73A0786E-7BCE-4687-3BA4-E63DB3C7DC07" referredColumn="FE9ADB85-AA5E-5679-8274-517F217735E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E1794639-3FAF-FBFC-A272-0C96C5120AC3" name="EMPLEADO_PK">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:29:52 UTC</createdTime>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02A7ABDD-3E86-1B53-794C-98A50531A666"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FC8BF6B-4894-D326-B07B-51DCB941BD37" name="EMPLEADO_VUELO_FK">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:46:29 UTC</createdTime>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EA7BC2A-8A40-48C8-69DC-6B996BB11F08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

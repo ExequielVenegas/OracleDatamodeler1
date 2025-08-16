@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="033EAB86-3AF4-B396-5D62-F31838C34C51" name="VUELO">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:52:06 UTC</createdTime>
+<generatorID>10B48C21-57E6-FDED-619B-29D75DE3BB41</generatorID>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<engineerTo>
+<item key="70F6B931-D651-FFD0-C792-D42345C0AE2C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NUMERO VUELO" id="DB465D6F-2AEF-A177-C6BF-5BA25DEE848B">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:52:06 UTC</createdTime>
+<generatorID>FE9ADB85-AA5E-5679-8274-517F217735E2</generatorID>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<engineerTo>
+<item key="70F6B931-D651-FFD0-C792-D42345C0AE2C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA DESPEGUE" id="7AB194BF-D6D8-4E51-2A71-041D4E8FB780">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:52:06 UTC</createdTime>
+<generatorID>41025054-FD76-A192-7CB8-ED3A5B300C1C</generatorID>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<engineerTo>
+<item key="70F6B931-D651-FFD0-C792-D42345C0AE2C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA LLEGADA" id="7D24370D-6154-8E0F-95C2-8C380EB2D0DE">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:52:06 UTC</createdTime>
+<generatorID>028425EB-8EAD-B360-F69B-3BDC238F725C</generatorID>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<engineerTo>
+<item key="70F6B931-D651-FFD0-C792-D42345C0AE2C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA SALIDA" id="832DB5E0-1026-6A24-8A28-4EFB72D86545">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:52:06 UTC</createdTime>
+<generatorID>251EDF14-5939-CCE9-69A0-0BDA61573CEF</generatorID>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<engineerTo>
+<item key="70F6B931-D651-FFD0-C792-D42345C0AE2C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F781C3B8-6594-F7B4-ABC4-B2A1733E55EA" name="VUELO PK">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:52:06 UTC</createdTime>
+<generatorID>A6FFBAC3-8857-2E79-FCD0-1F47B32335C0</generatorID>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<engineerTo>
+<item key="70F6B931-D651-FFD0-C792-D42345C0AE2C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DB465D6F-2AEF-A177-C6BF-5BA25DEE848B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

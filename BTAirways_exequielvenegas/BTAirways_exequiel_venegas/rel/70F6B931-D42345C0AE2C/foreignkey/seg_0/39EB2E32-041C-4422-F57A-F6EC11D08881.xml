@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="39EB2E32-041C-4422-F57A-F6EC11D08881" containerWithKeyObject="E076B40B-CDEB-E1EC-872E-9513078F7A7C" localFKIndex="6EA7D582-A345-036C-7384-90F3BF0956AB" name="RESERVA_PASAJEROS_FK">
+<createdBy>exequ</createdBy>
+<createdTime>2025-08-16 02:41:01 UTC</createdTime>
+<ownerDesignName>BTAirways_exequiel_venegas</ownerDesignName>
+<referredTableLongName>PASAJEROS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BDABDC7E-F3A9-2331-05BE-37D67C3E14EB</referredTableID>
+<keyObject>7DE48E07-7A74-CE6C-78C9-91D50D5D38D3</keyObject>
+<referredKeyID>7DE48E07-7A74-CE6C-78C9-91D50D5D38D3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CEDULA_IDENTIDAD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
